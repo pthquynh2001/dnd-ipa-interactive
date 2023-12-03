@@ -13,7 +13,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 30px auto;
-  width: 100%;
+  max-width: 1000px;
 }
 .logo {
   width: 200px;
@@ -53,18 +53,4 @@ body {
 }
 .social-icon:hover {
   opacity: 0.8;
-}
-/* GRID */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .content {
-    max-width: calc(100vw - 20vw);
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1280px) {
-  .content {
-    max-width: 1000px;
-  }
 }
