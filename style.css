@@ -5,9 +5,13 @@ body {
 }
 
 #container {
-  /* background: linear-gradient(160deg, #5317ae, #cb218e); */
-  background-color: #5521b5;
-  background-image: linear-gradient(120deg, #5108b1 0%, #cb218e 84%);
+  background-color: #19249f;
+  background-image: linear-gradient(
+    120deg,
+    #19249f 0%,
+    #cb218e 70%,
+    transparent
+  );
 }
 .content {
   display: flex;
