@@ -686,6 +686,7 @@ a.url:hover {
 
 
 /** Misc. **/
+
 #calltoaction {
 	<!-- font-family: 'Noto Sans Symbols', sans-serif; -->
 	font-family: Arial,Helvetica,sans-serif;
@@ -857,7 +858,7 @@ g.trigger {
 
 /** DEV ONLY – for positioning the triggers **/
 /*g.trigger { visibility: visible !important; }
-.trigger .whole { opacity: 0.1; fill: blue; }
+.trigger .whole { opacity: 0.1; fill: blue; user-select: none;}
 .trigger .phone { opacity: 0.1; fill: purple; }*/
 
 
