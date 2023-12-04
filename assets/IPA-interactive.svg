@@ -585,11 +585,13 @@
  */
 
 /** Backgrounds **/
-#background, #cutout { fill: #a4c2db; }
-.contentBackground { fill: #ffd9ab; }
-.titleBackground { fill: #0075b2; }
-#h2deco { fill: #007eb5; }
-#h3deco > g { fill: #fbb03b; }
+#background, #cutout { fill: #EBF6FF; }
+.contentBackground { fill: #ffdde8 }
+.titleBackground { fill: #19249f }
+#h2deco { fill:  #19249f }
+<!-- #h2deco { fill: #1977f3; } -->
+<!-- #h3deco > g { fill: #ff9a9a } -->
+#h3deco > g { fill: #ff9a9a }
 
 
 /** Headers **/
@@ -628,7 +630,9 @@ g.h3 > text {
         fill: black;
 }
 .separator { fill: url(#diagonalup); }
-
+#diagonalup line{
+	stroke: #ff9a9a;
+}
 
 /** Text **/
 text.signature {
@@ -1077,7 +1081,7 @@ g.trigger {
 
 
 
-<rect id="background" width="644" height="4000"/>
+<rect id="background" width="644" height="3800" rx="15" />
 <rect id="background_consonants" class="contentBackground" x="14.54" y="398" width="614.92" height="1430.28" rx="5" ry="5"/>
 <rect id="background_vowels" class="contentBackground" x="14.54" y="1980" width="614.92" height="558.8" rx="5" ry="5"/>
 <rect id="background_diphthongs" class="contentBackground" x="14.54" y="2690.9" width="614.92" height="591" rx="5" ry="5"/>
@@ -1129,7 +1133,7 @@ g.trigger {
 
 
 <g id="header">
-	<rect class="titleBackground" x="14.13" y="9" width="616" height="237.08"/>
+	<rect class="titleBackground" x="14.13" y="13" width="616" height="237.08" rx='5'/>
 	<g transform="translate(32.54 68)">
 		<g class="flipInX">
 			<text class="h1">INTERNATIONAL
