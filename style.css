@@ -5,11 +5,13 @@ body {
 }
 
 #container {
-  background-color: #19249f;
+  /* background: linear-gradient(160deg, #5317ae, #cb218e); */
+  background-color: #440bac;
   background-image: linear-gradient(
     120deg,
-    #19249f 0%,
-    #cb218e 70%,
+    transparent 0%,
+    #6617cb 30%,
+    #cb218e 60%,
     transparent
   );
 }
