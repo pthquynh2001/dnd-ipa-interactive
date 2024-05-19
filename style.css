@@ -74,7 +74,9 @@ body {
 }
 .social-icon {
   height: 50px;
+  max-width: 50px;
   margin: 0 20px;
+  object-fit: contain;
 }
 .social-icon:hover {
   opacity: 0.8;
